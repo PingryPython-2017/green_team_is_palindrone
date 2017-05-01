@@ -13,3 +13,13 @@ def is_palindrome(text) :
 	elif text[0] == text[-1] :
 		is_palindrome(text[1:-1])
 		return True
+
+
+# Main Program:
+
+message = input("Give me a message: ")
+
+if is_palindrome(message) == True:
+	print('"{}" is a palindrome.'.format(message))
+elif is_palindrome(message) == False:
+	print('"{}" is not a palindrome.'.format(message))
