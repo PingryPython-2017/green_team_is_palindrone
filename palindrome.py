@@ -1,6 +1,5 @@
 def is_palindrome(text) :
 	""" Takes in a string and determines if palindrome. Returns true or false. """
-	print(text)
 	
 	if len(text) == 1 :
 		return True
